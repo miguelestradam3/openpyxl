@@ -1,27 +1,38 @@
-# Data Analysis with Python :chart_with_upwards_trend:
+# SQLite to Excel Converter
 
-No exclusive GNU utilities usage.
+A simple Python program that exports data from a SQLite database into an Excel workbook.
 
-Solution developed on **Windows**.
+## Features
 
-## Automatic Execution
+- Convert SQLite tables to Excel
+- Export all tables to separate worksheets
+- Preserve column names
+- Easy to use
 
-### Automatic installments and built process
+## Requirements
+
+- Python 3.x
+- pandas
+- openpyxl
+
+Install the required packages:
 
 ```bash
-make build-venv
+pip install pandas openpyxl
 ```
 
-## How to use ? :smiley:
+## Usage
 
-To run this program, do one of the following :arrow_down:
+1. Place your SQLite database in the project folder.
+2. Update the database path in the script if necessary.
+3. Run the program:
 
-### Documentation Overview :arrow_down:
+```bash
+python app/main.py
+```
 
-Quick overview over some of the functionalities of this project.
+The program will generate an Excel file containing the exported database tables.
 
-Consult the documentation folder for more information: [Documentation](docs/)
+## License
 
-## Author
-
-Miguel Estrada: [miguelestradam36@gmail.com](mailto:miguelestradam36@gmail.com)"# python_projects" 
+This project is licensed under the MIT License.
